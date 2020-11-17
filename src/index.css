@@ -1,0 +1,328 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+strong,
+b {
+  font-weight: normal;
+}
+
+body {
+  text-align: center;
+  color: #873a60;
+  font-family: "Lato", sans-serif;
+}
+
+.page-header h3 {
+  margin-top: 50px;
+  color: rgb(185, 197, 206);
+  font-size: 60px;
+  line-height: 150%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  color: rgb(185, 197, 206);
+  font-family: inherit;
+  text-shadow: 0 0 1px #252c32;
+  font-size: 60px;
+}
+
+.navbar-brand {
+  color: #e0cb77;
+  text-shadow: 1px 1px 10p #485461;
+  font-size: 25px;
+}
+
+.well {
+  background: transparent;
+}
+
+#casing {
+  background-image: url("https://images.unsplash.com/14/unsplash_524000a90aaad_1.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=dc7275b6369c623d975484143fbb6a17");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#header {
+  height: auto;
+  color: #e0cb77;
+  margin-top: -40px;
+  padding-top: 10%;
+}
+
+#about {
+  padding-top: 20px;
+  padding-bottom: 100px;
+  height: 30%;
+}
+
+#about p {
+  margin-top: 5%;
+  margin-bottom: 20%;
+  font-size: 40px;
+  font-family: inherit;
+  text-align: center;
+  color: white;
+  border-color: white;
+}
+
+#about a:hover {
+  color: rgb(59, 118, 165);
+}
+
+#about a {
+  color: rgb(185, 197, 206);
+  text-decoration: none;
+}
+
+#portfolio header {
+  text-align: center;
+  padding-top: 40px;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+#portfolio {
+  padding-bottom: 20%;
+  height: 30%;
+  background-image: url("https://images.unsplash.com/photo-1429808016056-f8a16278ebff?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b997c2656da7c4a0fe09bd028a8d2cbc");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.frame {
+  margin-top: 10px;
+}
+
+.screenshot {
+  margin: 2em;
+}
+
+.screenshot a img {
+  margin: 10px auto;
+  width: 60%;
+}
+
+.caption {
+  color: rgb(57, 56, 74);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  font-size: 40px;
+  text-shadow: 0 0 1px #20261e;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact header {
+  margin: 0 -15px 0-15px;
+  padding-top: 30px;
+  background-color: transparent;
+}
+
+#contact h4 {
+  text-align: left;
+  text-weight: bold;
+  margin-left: 0.5em;
+  color: rgb(59, 118, 165);
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#contact h3 {
+  text-align: left;
+  margin-left: 0.2em;
+  margin-top: 50px;
+}
+
+#contact {
+  height: 30%;
+  background-image: url("https://images.unsplash.com/photo-1457195740896-7f345efef228?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5e324fe0fa108442ed8f66d7a968371f");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#contact img {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+.info a:hover {
+  text-decoration: none;
+}
+
+.info a:active {
+  -webkit-transform: translate(0, 3px);
+  -moz-transform: translate(0, 3px);
+  transform: translate(0, 3px);
+}
+
+.info a {
+  width: auto;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  font-family: "Oswald";
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 10px 15px 10px 50px;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.info {
+  list-style-type: none;
+  position: relative;
+  text-align: left;
+  margin: 15px 0 0 -40px;
+  padding: 20px 0 20px 0;
+  width: 10%;
+}
+
+.facebook-big {
+  -webkit-box-shadow: 0px 6px 0px #293f63;
+  -moz-box-shadow: 0px 6px 0px #293f63;
+  box-shadow: 0px 6px 0px #293f63;
+  background: #3b5997;
+}
+
+.facebook-big:active {
+  -webkit-box-shadow: 0px 2px 0px #293f63;
+  -moz-box-shadow: 0px 2px 0px #293f63;
+  box-shadow: 0px 2px 0px #293f63;
+}
+
+.facebook-big:before {
+  background: url("http://cs630621.vk.me/v630621848/fc83/6FvQFfkLcv0.jpg")
+    no-repeat center center;
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 10px;
+  top: 8%;
+}
+
+.gh-big {
+  -webkit-box-shadow: 0px 6px 0px #141412;
+  -moz-box-shadow: 0px 6px 0px #141412;
+  box-shadow: 0px 6px 0px #141412;
+  position: relative;
+  background: #353631;
+}
+
+.gh-big:active {
+  -webkit-box-shadow: 0px 2px 0px #141412;
+  -moz-box-shadow: 0px 2px 0px #141412;
+  box-shadow: 0px 2px 0px #141412;
+}
+
+.gh-big:before {
+  background: url("http://cs630621.vk.me/v630621848/fc7c/iRIp3HyGIvU.jpg")
+    no-repeat center center;
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 10px;
+  top: 8%;
+}
+
+.linkedin-big {
+  -webkit-box-shadow: 0px 6px 0px #005377;
+  -moz-box-shadow: 0px 6px 0px #005377;
+  box-shadow: 0px 6px 0px #005377;
+  background: #0073b2;
+}
+
+.linkedin-big:active {
+  -webkit-box-shadow: 0px 2px 0px #005377;
+  -moz-box-shadow: 0px 2px 0px #005377;
+  box-shadow: 0px 2px 0px #005377;
+}
+
+.linkedin-big:before {
+  background: url("http://cs630621.vk.me/v630621848/fc98/FJJtqaye1sE.jpg")
+    no-repeat center center;
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 10px;
+  top: 8%;
+}
+
+.fcc-big {
+  -webkit-box-shadow: 0px 6px 0px #333300;
+  -moz-box-shadow: 0px 6px 0px #333300;
+  box-shadow: 0px 6px 0px #333300;
+  background: #669900;
+}
+
+.fcc-big:active {
+  -webkit-box-shadow: 0px 2px 0px #333300;
+  -moz-box-shadow: 0px 2px 0px #333300;
+  box-shadow: 0px 2px 0px #333300;
+}
+
+.fcc-big:before {
+  background: url("http://cs630621.vk.me/v630621848/fc9f/rzbyjrRQ8wE.jpg")
+    no-repeat center center;
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 10px;
+  top: 8%;
+}
+
+.copyright {
+  position: relative;
+  color: white;
+  float: right;
+  margin-top: 100px;
+  text-shadow: 1px 1px 3px #485461;
+}
+
+#MB {
+  color: rgb(153, 210, 202);
+  text-shadow: 1px 1px 3px #485461;
+}
+
+@media (max-width: 600px) {
+  #header {
+    background-attachment: scroll;
+    background-position: center;
+  }
+
+  #about {
+    background-attachment: scroll;
+  }
+
+  #portfolio {
+    background-attachment: scroll;
+  }
+
+  #contact {
+    background-attachment: scroll;
+  }
+}
